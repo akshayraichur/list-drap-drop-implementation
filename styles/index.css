@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #2c3333;
+  --seconndary-color: #395b64;
+  --text-color: #a5c9ca;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+.container,
+footer {
+  text-align: center;
+  margin: 2rem;
+}
+
+a {
+  color: var(--text-color);
+}
+
+a:checked {
+  color: var(--text-color);
+}
